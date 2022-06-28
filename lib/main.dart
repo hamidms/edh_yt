@@ -1,25 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random();
     return MaterialApp(
-      title: 'Name Generator App',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Name Generator'),
-        ),
-        body: Center(
-          child: Text(wordPair.asPascalCase),
-        ),
+        appBar: AppBar(title: Text("Aplikasi Hello World"),),
+        body: Center(child: Text("Hello World")),
       ),
     );
   }
