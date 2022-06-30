@@ -23,3 +23,13 @@
 `textAlign`: digunakan untuk mengatur rata pada tulisan
 `textAlign: TextAlign.center`
 
+`style`: memberikan style
+
+`TextStyle`: mengatur gaya/style dari text tersebut
+
+`fontStyle`: digunakan untuk memberikan style pada text (italic, bold, etc). Contohnya `fontStyle: FontStyle.italic`
+
+`fontWeight`: digunakan untuk memberikan ketebalan pada text (w100, w500, w800). Contohnya `fontWeight: FontWeight.w700`
+
+`fontSize`: digunakan untuk memberikan ukuran pada font yang digunakan
+
